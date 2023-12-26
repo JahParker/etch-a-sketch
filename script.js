@@ -9,7 +9,7 @@ function updateGridSize() {
   }
 
   do {
-    gridSize = prompt("Enter grid size between 1-100", 1)
+    gridSize = prompt("Enter grid size between 1-100", 100)
     notValidSize = gridSize > 100 || gridSize < 1;
   } while (notValidSize);
 
