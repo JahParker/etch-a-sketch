@@ -1,5 +1,5 @@
 function updateGridSize() {
-  let gridSize = 1;
+  let gridSize = 1; 
   let notValidSize = true;
 
   if (drawingBoard.hasChildNodes()) {
@@ -17,6 +17,7 @@ function updateGridSize() {
     const block = document.createElement('div');
     block.textContent = 'Block'
     block.classList.add('block');
+    block.style.cssText = `flex-basis: ${100 / gridSize}%;`
     drawingBoard.appendChild(block);
   }
 }
