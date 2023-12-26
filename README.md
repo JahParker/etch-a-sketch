@@ -1,0 +1,50 @@
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
+
+## Getting Started
+
+### Installing
+
+- How/where to download your program
+- Any modifications needed to be made to files/folders
+
+### Usage
+
+- How to run the program
+- Step-by-step bullets
+
+```txt
+code blocks for commands
+```
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+```md
+    ![alt text](assets/images/screenshot.png)
+```
+
+## Credits
+
+List your collaborators, if any, with links to their GitHub profiles.
+
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+If you followed tutorials, include links to those here as well.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
