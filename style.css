@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  justify-content:center;
+  gap: 12px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#drawing-board {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  height: 750px;
+  width: 750px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  height: auto;
+  border: rgb(200, 200, 200) .5px solid;
+}
+
+.colored {
+  background-color: black;
+  border: none;
+}
