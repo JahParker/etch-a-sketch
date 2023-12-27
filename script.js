@@ -16,7 +16,7 @@ function updateGridSize() {
   for (let i = 0; i < Math.pow(gridSize, 2); i++) {
     const block = document.createElement('div');
     block.classList.add('block');
-    block.style.cssText = `flex-basis: ${100 / gridSize}%;`
+    block.style.cssText = `flex-basis: ${100 / gridSize}%;`;
     drawingBoard.appendChild(block);
   }
 }
