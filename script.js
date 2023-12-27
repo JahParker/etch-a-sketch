@@ -24,8 +24,16 @@ function updateGridSize() {
   }
 }
 
+function clear() {
+  const blocks = drawingBoard.childNodes
+  blocks.forEach(block => {
+    block.classList.remove('colored');
+  });
+}
+
 const drawingBoard = document.querySelector('#drawing-board');
 const gridSizeButton = document.querySelector('#grid-size')
 const clearButton = document.querySelector('#clear');
 
 gridSizeButton.addEventListener('click', updateGridSize);
+clearButton.addEventListener('click', clear);
