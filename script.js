@@ -17,6 +17,9 @@ function updateGridSize() {
     const block = document.createElement('div');
     block.classList.add('block');
     block.style.cssText = `flex-basis: ${100 / gridSize}%;`;
+    block.addEventListener('mouseover', () => {
+      block.classList.add('colored');
+    })
     drawingBoard.appendChild(block);
   }
 }
